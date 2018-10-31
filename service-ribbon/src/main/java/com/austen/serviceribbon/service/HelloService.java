@@ -1,0 +1,18 @@
+package com.austen.serviceribbon.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+/**
+ * @author Austen
+ */
+@Service
+public class HelloService {
+    @Autowired
+    RestTemplate restTemplate;
+
+    public String hiService(String name) {
+        return restTemplate.getForObject("http://eureka-client1/hi?name="+name,String.class);
+    }
+}
