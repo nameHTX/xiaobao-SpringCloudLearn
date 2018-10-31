@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.austen</groupId>
-    <artifactId>eureka-client1</artifactId>
+    <artifactId>eureka-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>eureka-client1</name>
-    <description>eureka-client1</description>
+    <name>eureka-client</name>
+    <description>eureka-client</description>
 
     <parent>
         <groupId>com.austen</groupId>
