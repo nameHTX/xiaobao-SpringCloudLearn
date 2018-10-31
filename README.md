@@ -1,4 +1,7 @@
->eureka-server eureka服务端    
->eureka-client1 eureka消费端1   
->eureka-client2 eureka消费端2   
->
+>服务的注册与发现Eureka
+>>eureka-server 服务注册中心    
+eureka-client1  服务提供者1   
+eureka-client2  服务提供者2      
+
+>服务消费者（rest+ribbon）
+>>service-ribbon    服务消费者
