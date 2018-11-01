@@ -5,3 +5,6 @@ eureka-client2  服务提供者2
 
 >服务消费者（rest+ribbon）
 >>service-ribbon    服务消费者
+
+>服务消费者（Feign）
+>>service-feign     服务消费者

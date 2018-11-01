@@ -1,4 +1,4 @@
-package com.austen.serviceribbon;
+package com.austen.serviceribbon.controller;
 
 import com.austen.serviceribbon.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
