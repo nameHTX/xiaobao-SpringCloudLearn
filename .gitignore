@@ -37,7 +37,7 @@ buildNumber.properties
 # About IntelliJ
 /.idea/
 /out/
-
+/classes/
 
 # macOS
 .DS_Store
