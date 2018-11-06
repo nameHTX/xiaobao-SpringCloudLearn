@@ -4,7 +4,7 @@ eureka-client1  服务提供者1
 eureka-client2  服务提供者2   
 
 >服务消费者（rest+ribbon）
->>service-ribbon    服务消费者
+>>service-ribbon    服务消费者，使用断路器
 
 >服务消费者（Feign）
->>service-feign     服务消费者
+>>service-feign     服务消费者，使用断路器
