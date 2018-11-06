@@ -1,4 +1,4 @@
-package com.austen.eurekaServer;
+package com.austen.eurekaserver;
 
 
 import org.springframework.boot.SpringApplication;
