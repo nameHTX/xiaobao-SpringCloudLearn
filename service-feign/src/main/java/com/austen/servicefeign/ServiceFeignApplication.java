@@ -1,4 +1,4 @@
-package com.austen.sericefeign;
+package com.austen.servicefeign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,9 +10,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @EnableDiscoveryClient
 @EnableFeignClients
-public class SericeFeignApplication {
+public class ServiceFeignApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SericeFeignApplication.class, args);
+        SpringApplication.run(ServiceFeignApplication.class, args);
     }
 }

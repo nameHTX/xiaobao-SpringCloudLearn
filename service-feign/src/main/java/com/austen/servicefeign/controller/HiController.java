@@ -1,6 +1,6 @@
-package com.austen.sericefeign.controller;
+package com.austen.servicefeign.controller;
 
-import com.austen.sericefeign.service.SchedualServiceHi;
+import com.austen.servicefeign.service.SchedualServiceHi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

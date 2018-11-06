@@ -1,4 +1,4 @@
-package com.austen.sericefeign;
+package com.austen.servicefeign;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SericeFeignApplicationTests {
+public class ServiceFeignApplicationTests {
 
     @Test
     public void contextLoads() {

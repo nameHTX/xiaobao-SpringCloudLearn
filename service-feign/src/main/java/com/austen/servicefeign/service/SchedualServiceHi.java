@@ -1,4 +1,4 @@
-package com.austen.sericefeign.service;
+package com.austen.servicefeign.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
