@@ -1,4 +1,4 @@
-package com.austen.sericefeign.service;
+package com.austen.servicefeign.service;
 
 import com.austen.sericefeign.hystric.SchedualServiceHiHystric;
 import org.springframework.cloud.openfeign.FeignClient;
