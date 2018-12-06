@@ -11,3 +11,6 @@ eureka-client2  服务提供者2
 
 >服务消费者（Feign）
 >>service-feign     服务消费者，使用断路器
+
+>路由网关(zuul)(Finchley版本)
+>>service-zuul      跟Ribbon结合实现负载均衡,也可实现过滤器等
